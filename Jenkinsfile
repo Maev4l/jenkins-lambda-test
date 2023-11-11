@@ -3,8 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello world 6!'
-                sh 'ls -la'
+                echo 'Hello world 51!'
+
+                sh 'df -h'
             }
         }
     }
